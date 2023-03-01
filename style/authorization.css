@@ -63,9 +63,9 @@ body {
 	border-radius: 15px;
 	background-image: linear-gradient(
 		var(--rotate),
-		#5ddcff,
-		#3c67e3 43%,
-		#4e00c2
+		#05c9ff,
+		#5c7cdc 43%,
+		#6130ac
 	);
 	position: absolute;
 	z-index: -1;

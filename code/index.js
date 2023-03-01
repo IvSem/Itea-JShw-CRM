@@ -10,7 +10,7 @@ import { createHTMLElement, categorySelect } from './functions.js';
 import { saveDataDish, saveDataVideo } from './code.js';
 
 if (!sessionStorage.isLogin && !document.location.pathname.includes('/auth')) {
-	document.location = 'Itea-JShw-CRM/auth.html';
+	document.location = '../auth.html';
 }
 //authorization
 try {
