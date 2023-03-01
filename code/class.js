@@ -2,7 +2,7 @@ class StoreElementCRM {
 	constructor(
 		productName = '',
 		porductPrice = 0,
-		productImage = '/img/error.png',
+		productImage = '../img/error.png',
 		productDescription = '',
 		productQuantity = 0,
 		keywords = [],

@@ -7,7 +7,7 @@ import { generationId, dateNow } from './functions.js';
 class VideoElementCRM {
 	constructor(
 		productName = '',
-		poster = '/img/error.png',
+		poster = '../img/error.png',
 		url = '',
 		productDescription = '',
 		productQuantity = 0,
@@ -36,7 +36,7 @@ class RestElementCRM {
 		productQuantity = 0,
 		keywords = [],
 		price = 0,
-		productimageUrl = '/img/error.png',
+		productimageUrl = '../img/error.png',
 		dateNow = () => {},
 		id = () => {}
 	) {
