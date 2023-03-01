@@ -13,7 +13,7 @@ if (
 	!sessionStorage.isLogin &&
 	!document.location.pathname.includes('/authorization')
 ) {
-	document.location = '../authorization';
+	document.location = '../authorization/';
 }
 //authorization
 try {
